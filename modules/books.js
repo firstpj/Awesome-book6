@@ -6,6 +6,7 @@ class BookList {
       title: document.getElementById('titleError'),
     };
   }
+
   init() {
     const navLinks = document.querySelectorAll('nav a');
     navLinks.forEach((link) => {
@@ -40,14 +41,17 @@ class BookList {
       this.renderBookList();
     });
   }
+
   addBook(book) {
     this.books.push(book);
     localStorage.setItem('books', JSON.stringify(this.books));
   }
+
   removeBook(index) {
     this.books.splice(index, 1);
     localStorage.setItem('books', JSON.stringify(this.books));
   }
+
   showError(type, message) {
     const errorElement = this.errorElements[type];
     errorElement.textContent = message;
@@ -55,12 +59,14 @@ class BookList {
     document.getElementById(type).style.marginBottom = '1rem';
     this.resetInputError();
   }
+
   resetInputError() {
     setTimeout(() => {
       this.errorElements.title.style.display = 'none';
       this.errorElements.author.style.display = 'none';
     }, 2000);
   }
+
   renderBookList() {
     const bookList = document.getElementById('book-list');
     bookList.innerHTML = '';
@@ -80,6 +86,7 @@ class BookList {
       bookList.appendChild(li);
     });
   }
+
   showSection = (sectionId) => {
     const contentSections = document.querySelectorAll('.content-section');
     contentSections.forEach((section) => {

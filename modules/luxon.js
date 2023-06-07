@@ -1,4 +1,5 @@
-425467var luxon = (function (exports) {
+/* eslint-disable */
+luxon = (function (exports) {
   'use strict';
 
   function _defineProperties(target, props) {

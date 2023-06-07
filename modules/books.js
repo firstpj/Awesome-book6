@@ -31,9 +31,9 @@ class BookList {
         document.getElementById('title').value = '';
         document.getElementById('author').value = '';
       } else if (title === '') {
-        this.showError('title', 'Title cannot be empty.');
+        this.showError('title', 'Add tittle.');
       } else if (author === '') {
-        this.showError('author', 'Author cannot be empty.');
+        this.showError('author', 'Add author.');
       }
     });
     window.addEventListener('load', () => {

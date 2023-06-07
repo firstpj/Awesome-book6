@@ -3,7 +3,7 @@
 
 <div align="center">
   <br/>
-  <h3><b> Awesome Books Project</b></h3>
+  <h3><b> Collins Awesome Books Project</b></h3>
 </div>
 
 <!-- TABLE OF CONTENTS -->
@@ -31,9 +31,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Awesome Books Project <a name="about-project"></a>
+# 📖Awesome Books Project <a name="about-project"></a>
 
-***Awesome books*** is a simple website that displays a list of books and allows you to add and remove books from that list. Main objective is to implement data management in JavaScript. 
+***Awesome books ES6*** is a simple website that displays a list of books and allows you to add and remove books from that list. Main objective is to implement data management in JavaScript. 
 
 ## 🛠 Built With <a name="built-with"></a>
 - HTML.
@@ -42,38 +42,25 @@
 
 ### Tech Stack <a name="tech-stack"></a>
 
-<details>
-  <summary>Client</summary>
-  <ul>
-    <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML">HTML</a></li>
-    <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">CSS</a></li>
-    <li><a href="https://www.javascript.com/">ES6</a></li>
-  </ul>
-</details>
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
 - **Use of medium-fidelity wireframe to build the UI.**
 - **Customized for both mobile and desktop devices.**
-- **Navigation and Animations**
+- **Navigation and Hover**
 
-<!-- ![Screenshot](./images/Screenshot%202.png) -->
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- You can find the website [here](https://rmiyoyo.github.io/Awesome-Books-v2-With-ES6/)
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
-
-To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
@@ -89,7 +76,7 @@ Clone this repository to your desired folder:
 
 ```sh
   cd my-folder
-  git clone git@github.com:rmiyoyo/Awesome-Books-v2-With-ES6.git
+  https://github.com/firstpj/Awesome-book6.git
 ```
 
 ### Install
@@ -150,12 +137,11 @@ Example:
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Raphael Miyoyo**
+👤 **Collins**
 
-- GitHub: [@rmiyoyo](https://github.com/rmiyoyo)
-- Twitter: [@r_miyoyo](https://twitter.com/r_miyoyo)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/raphael-miyoyo)
-
+-GitHub: [@firstpj](https://github.com/firstpj)
+- Twitter: [@AkordaC](https://twitter.com/AkordaC)
+- LinkedIn: [Collins Akorda](https://www.linkedin.com/in/collins-akorda-bb46b2232/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -182,15 +168,13 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project, create a pull request or hit us up on [Twitter](https://twitter.com/r_miyoyo)
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-- I thank Microverse Reviewers for reviewing our pull requests.
+-I want to give special thanks to Microverse for the great opportunity given to me to realise my dreams.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

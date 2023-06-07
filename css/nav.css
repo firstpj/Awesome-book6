@@ -1,0 +1,34 @@
+nav {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  border: 1px solid rgb(106, 106, 106);
+  border-radius: 0.3rem;
+  width: 90%;
+  margin: 1rem auto 0;
+}
+
+nav > a {
+  color: rgb(106, 106, 106);
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+nav ul a {
+  font-weight: 700;
+  color: rgb(106, 106, 106);
+}
+
+nav ul a:active {
+  font-weight: bolder;
+}
+
+.current-time {
+  display: flex;
+  justify-content: flex-end;
+  align-self: flex-end;
+  width: 90%;
+  margin: 1rem auto 0;
+}

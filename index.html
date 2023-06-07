@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/nav.css">
+     <title>Collins A. Awesome books Es6</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <a href="#">Awesome Books</a>
+      <ul>
+        <li><a href="#book-list" class="active">List</a></li>
+        <li><a href="#add-book">Add book</a></li>
+        <li><a href="#contact-info">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- display date and time -->
+    <section class="current-time">
+      <p id="datetime"></p>
+    </section>
+
+    <main>
+      <section id="book-list" class="content-section"></section>
+
+      <section id="add-book" class="content-section hidden">
+        <h1>Add book</h1>
+        <form>
+          <input type="text" id="title" placeholder="Title" />
+          <span id="titleError"></span>
+          <input type="text" id="author" placeholder="Author" />
+          <span id="authorError"></span>
+          <button type="submit" id="add-button">Add new book</button>
+        </form>
+      </section>
+    </main>
+    <section id="contact-info" class="content-section hidden">
+      <h2>Contact</h2>
+      <h3>
+        How can We help? Feel free to contact our team, we have experts on grand who can answer your questions.
+        Bellow is our contact information.
+      </h3>
+      <ul>
+        <li>e-mail: akpocollins2005@gmail.com</li>
+        <li>Phone: +233(0)54288850</li>
+        <li>Address: Central Region. Ghana.</li>
+      </ul>
+    </section>
+  </main>
+
+        <footer>
+      <p>&copy;Microverse All Rights Reserved</p>
+      <p>Collins Akorda</p>
+    </footer>
+    <script type="module" src="index.js"></script>
+  </body>
+</html>

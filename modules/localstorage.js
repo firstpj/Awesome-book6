@@ -1,9 +1,7 @@
-function getStoredBooks() {
-  return JSON.parse(localStorage.getItem('books')) || [];
-}
+const getStoredBooks = () => JSON.parse(localStorage.getItem('books')) || [];
 
-function storeBooks(books) {
+const storeBooks = (books) => {
   localStorage.setItem('books', JSON.stringify(books));
-}
+};
 
 export { getStoredBooks, storeBooks };

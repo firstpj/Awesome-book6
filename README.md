@@ -35,12 +35,10 @@
 ***Awesome books ES6*** is a simple website that displays a list of books and allows you to add and remove books from that list. Main objective is to implement data management in JavaScript. 
 
 ## 🛠 Built With <a name="built-with"></a>
+### Tech Stack <a name="tech-stack"></a>
 - HTML.
 - CSS.
 - ES6
-
-### Tech Stack <a name="tech-stack"></a>
-
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
